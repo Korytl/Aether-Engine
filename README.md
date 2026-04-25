@@ -30,3 +30,6 @@ Tip: All files are intialized in Game.cpp, so you will find path definitions the
 
 # Images
 1. assets/images/ - store splash screen image
+
+# Note
+All feedback is welcomed. 
