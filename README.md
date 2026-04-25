@@ -12,3 +12,15 @@ better, especially as I continue to learn more about OpenGL or graphics programm
 3. ImGui
 4. glm
 5. GLFW/GLEW
+
+# GUIDE TO DIRECTORIES
+# Audio
+1. assets/audio/music/ - store all in game music
+2. assets/audio/sfx/ - stores all in game sound effects
+
+# Data
+1. assets/data/ - store all json files
+2. assets/data/textures/items - store all item textures
+
+# Images
+1. assets/images/ - store splash screen image
