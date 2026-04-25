@@ -14,6 +14,9 @@ better, especially as I continue to learn more about OpenGL or graphics programm
 5. GLFW/GLEW
 
 # GUIDE TO DIRECTORIES
+This folders/files must be stored in your x64 Debug/Release in order for it to work. For any changes made, it must also be applied in the code e.g. changing 
+a folder name/ location. The same applies for any new additions. 
+Tip: All files are intialized in Game.cpp, so you will find path definitions there.
 # Audio
 1. assets/audio/music/ - store all in game music
 2. assets/audio/sfx/ - stores all in game sound effects
