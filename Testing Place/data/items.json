@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "health_potion",
+      "name": "Health Potion",
+      "description": "Restores 50 HP",
+      "maxStack": 10,
+      "consumable": true
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "description": "A sturdy iron blade",
+      "maxStack": 1,
+      "consumable": false
+    },
+    {
+      "id": "leather_armor",
+      "name": "Leather Armor",
+      "description": "Basic protective gear",
+      "maxStack": 1,
+      "consumable": false
+    },
+    {
+      "id": "gold_coin",
+      "name": "Gold Coin",
+      "description": "Shiny currency",
+      "maxStack": 999,
+      "consumable": false
+    },
+    {
+      "id": "magic_scroll",
+      "name": "Magic Scroll",
+      "description": "Contains ancient spell",
+      "maxStack": 5,
+      "consumable": true
+    }
+  ]
+}

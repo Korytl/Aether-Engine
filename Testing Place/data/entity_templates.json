@@ -1,0 +1,129 @@
+{
+  "templates": [
+    {
+      "id": "player",
+      "components": {
+        "transform": {
+          "position": [ 400, 300 ],
+          "rotation": 0,
+          "scale": [ 1, 1 ]
+        },
+        "renderable": {
+          "color": [ 0.2, 0.6, 1.0, 1.0 ],
+          "shapeType": 0,
+          "layer": 10,
+          "size": [ 32, 32 ],
+          "visible": true
+        },
+        "collider": {
+          "offset": [ 0, 0 ],
+          "size": [ 32, 32 ],
+          "collisionLayer": 1,
+          "collisionMask": 4294967295,
+          "isTrigger": false,
+          "isStatic": false
+        },
+        "physics": {
+          "velocity": [ 0, 0 ],
+          "acceleration": [ 0, 0 ],
+          "friction": 0.85,
+          "gravity": -980,
+          "applyGravity": true,
+          "maxSpeed": 300
+        },
+        "health": {
+          "currentHP": 100,
+          "maxHP": 100,
+          "invincibilityDuration": 0.5,
+          "isDead": false
+        },
+        "inventory": {
+          "capacity": 20,
+          "slots": []
+        },
+        "tag": {
+          "tag": "player"
+        }
+      }
+    },
+    {
+      "id": "goblin",
+      "components": {
+        "transform": {
+          "position": [ 600, 300 ],
+          "rotation": 0,
+          "scale": [ 1, 1 ]
+        },
+        "renderable": {
+          "color": [ 0.2, 0.8, 0.2, 1.0 ],
+          "shapeType": 0,
+          "layer": 5,
+          "size": [ 28, 28 ],
+          "visible": true
+        },
+        "collider": {
+          "offset": [ 0, 0 ],
+          "size": [ 28, 28 ],
+          "collisionLayer": 2,
+          "collisionMask": 4294967295,
+          "isTrigger": false,
+          "isStatic": false
+        },
+        "physics": {
+          "velocity": [ 0, 0 ],
+          "acceleration": [ 0, 0 ],
+          "friction": 0.9,
+          "gravity": -980,
+          "applyGravity": true,
+          "maxSpeed": 150
+        },
+        "health": {
+          "currentHP": 30,
+          "maxHP": 30,
+          "invincibilityDuration": 0.3,
+          "isDead": false
+        },
+        "aiState": {
+          "currentBehavior": 1,
+          "sightRange": 200,
+          "attackRange": 40,
+          "patrolPoints": [
+            [ 600, 300 ],
+            [ 700, 300 ]
+          ]
+        },
+        "tag": {
+          "tag": "enemy"
+        }
+      }
+    },
+    {
+      "id": "chest",
+      "components": {
+        "transform": {
+          "position": [ 500, 200 ],
+          "rotation": 0,
+          "scale": [ 1, 1 ]
+        },
+        "renderable": {
+          "color": [ 0.6, 0.4, 0.2, 1.0 ],
+          "shapeType": 0,
+          "layer": 3,
+          "size": [ 40, 30 ],
+          "visible": true
+        },
+        "collider": {
+          "offset": [ 0, 0 ],
+          "size": [ 40, 30 ],
+          "collisionLayer": 4,
+          "collisionMask": 1,
+          "isTrigger": true,
+          "isStatic": true
+        },
+        "tag": {
+          "tag": "chest"
+        }
+      }
+    }
+  ]
+}

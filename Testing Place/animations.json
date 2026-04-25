@@ -1,0 +1,22 @@
+{
+  "animations": [
+    {
+      "name": "player_idle",
+      "frames": [ "player_idle_0" ],
+      "frameDuration": 0.1,
+      "loop": true
+    },
+    {
+      "name": "player_run",
+      "frames": [ "player_run_0", "player_run_1" ],
+      "frameDuration": 0.1,
+      "loop": true
+    },
+    {
+      "name": "enemy_idle",
+      "frames": [ "enemy_idle_0" ],
+      "frameDuration": 0.2,
+      "loop": true
+    }
+  ]
+}

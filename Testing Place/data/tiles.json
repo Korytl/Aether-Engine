@@ -1,0 +1,29 @@
+{
+  "tiles": [
+    {
+      "id": "grass",
+      "solid": false,
+      "color": [ 0.2, 0.7, 0.2, 1.0 ]
+    },
+    {
+      "id": "stone",
+      "solid": true,
+      "color": [ 0.5, 0.5, 0.5, 1.0 ]
+    },
+    {
+      "id": "water",
+      "solid": false,
+      "color": [ 0.2, 0.4, 0.8, 1.0 ]
+    },
+    {
+      "id": "dirt",
+      "solid": true,
+      "color": [ 0.4, 0.3, 0.2, 1.0 ]
+    },
+    {
+      "id": "sand",
+      "solid": false,
+      "color": [ 0.9, 0.85, 0.6, 1.0 ]
+    }
+  ]
+}
